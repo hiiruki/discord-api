@@ -1,0 +1,28 @@
+{
+  "name": "discord-api",
+  "version": "1.0.0",
+  "description": "Discord API integration",
+  "author": {
+    "name": "Hiiruki",
+    "website": "https://hiiruki.moe",
+    "email": "hi@hiiruki.moe"
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/hiiruki/discord-api.git"
+	},
+  "homepage": "https://api.hiiruki.moe/discord/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
